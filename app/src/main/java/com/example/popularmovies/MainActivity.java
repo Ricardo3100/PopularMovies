@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager;
 //Below this is the url that will be parsed
     private static final String Movies =
-            "http://api.themoviedb.org/3/movie/popular?api_key=743c3acb2e77bebdfc32efede048ecf8";
+            "http://api.themoviedb.org/3/movie/popular?api_key=";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
